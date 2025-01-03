@@ -1,10 +1,10 @@
-Scaffold-DbContext "Server=San2Five\SQLEXPRESS;Database=InvoiceDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models1
+Scaffold-DbContext "Server=HONEY\\SQLEXPRESS;Database=InvoiceDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models1
 
 Scaffold-DbContext: This is the main command used to scaffold a database context and entity classes for a database.
 
-Connection String: "Server=San2Five\SQLEXPRESS;Database=InvoiceDB;Trusted_Connection=True;" specifies the database to connect to. In this case:
+Connection String: "Server=HONEY\\SQLEXPRESS;Database=InvoiceDB;Trusted_Connection=True;" specifies the database to connect to. In this case:
 
-Server=San2Five\SQLEXPRESS: Specifies the SQL Server instance.
+Server=HONEY\\SQLEXPRESS: Specifies the SQL Server instance.
 
 Database=InvoiceDB: Specifies the database name.
 
